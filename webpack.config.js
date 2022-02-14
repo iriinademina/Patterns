@@ -6,7 +6,6 @@ module.exports ={
     entry: './src/app.ts',
     plugins: [
         new HtmlWebpackPlugin({
-         title: 'Output Management',
          title: 'Development',
         }),
       ],

@@ -45,13 +45,11 @@ export class FlyRocketPowered implements FlyBehanior {
 }
 
 export abstract class Duck {
+
   constructor(
     private flyBehavior: FlyBehanior,
     private quackBehavior: QuackBehavior
-  ) {
-    this.flyBehavior = flyBehavior;
-    this.quackBehavior = quackBehavior;
-  }
+  ) {}
 
   public abstract display(): void;
 
